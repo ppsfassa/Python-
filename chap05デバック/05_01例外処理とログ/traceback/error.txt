@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Toshiya\Documents\Python逆引き大全\sample\chap05\05_01\traceback\saveTraceback.py", line 10, in <module>
+    func1()      # func1()を呼出す
+  File "C:\Users\Toshiya\Documents\Python逆引き大全\sample\chap05\05_01\traceback\saveTraceback.py", line 4, in func1
+    func2()
+  File "C:\Users\Toshiya\Documents\Python逆引き大全\sample\chap05\05_01\traceback\saveTraceback.py", line 7, in func2
+    raise Exception('func1()のエラーメッセージです。')
+Exception: func1()のエラーメッセージです。
